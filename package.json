@@ -1,0 +1,12 @@
+{
+  "name": "ranjana-portfolio-fullstack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal portfolio with an Express contact form backend",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": { "node": ">=22" },
+  "dependencies": { "express": "^5.1.0", "nodemailer": "^7.0.0" }
+}
